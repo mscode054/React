@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+}
+header {
+  margin-top: 45px;
+  font-size: 1.3rem;
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+.input {
+  border: none;
+  width: 300px;
+  height: 35px;
+  outline: none;
+}
+.todo-btn {
+  width: 30px;
+  height: 37px;
+  border: none;
+  background-color: white;
+  padding: auto;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.todo-btn:hover {
+  background-color: #f18162;
+  color: white;
+}
+
+.adjust {
+  display: flex;
+  justify-content: center;
+}
+.select {
+  margin-left: 20px;
+}
+.todos {
+  height: 37px;
+  width: 125px;
+  border: none;
+  transition: all 1s ease;
+  padding: auto;
+  font-weight: bold;
+  text-align: justify;
+  color: #f18162;
+  margin: auto;
+  outline: none;
+}
+.todo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todolist {
+  list-style: none;
+  min-width: 30%;
+  margin-left: 100px;
+}
+.todo {
+  margin: 1rem;
+  font-size: 1.3rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  transition: all 0.5s ease;
+}
+.todo-item {
+  color: black;
+}
+.todo li {
+  flex: 1;
+}
+.tick-btn,
+.remove-btn {
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  color: white;
+  background: #ff6f47;
+  outline: none;
+}
+.tick-btn {
+  background: rgb(11, 212, 162);
+}
+.on {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
